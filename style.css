@@ -1,0 +1,118 @@
+#mainBody {
+    background-image: url('./img/city.jpg');
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navTitle {
+    margin-left: 500px;
+    color: red;
+    font-size: 40px;
+    background-color: black;
+    width: 450px;
+    height: 100px;
+    justify-content: center;
+    border: ridge;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    opacity: 90%;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    margin-top: 50px;
+
+}
+
+li {
+    float: left;
+    margin-left: 150px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li:hover {
+    background-color: red;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+    margin-left: 140px;
+    margin-top: 100px;
+   
+
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  img {
+    border: 2px solid red;
+    border-radius: 5px;
+  }
+
+  #hometext {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+    margin-left: 140px;
+    margin-top: 100px;
+  }
+  .paragraphText{
+      background-color: white;
+  }
+
+  /* start of css for braves page */
+
+  #bravesBody {
+
+    background: url("./img/truist.jpg");
+    opacity: 70%;
+    width: auto;
+    
+  }
+  #bravesBanner {
+   
+    height: 400px;
+    width: 100%;
+  }
+
+  #firstInfoBlock {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    
+  }
+
+  #infoBraves {
+
+    border: solid red;
+    word-break: break-all;
+  }
